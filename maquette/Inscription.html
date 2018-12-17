@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+
+  <title>INSCRIPTION</title>
+
+  <link href="inscription.css" rel="stylesheet">
+  <link href="common.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Chango' rel='stylesheet'>
+  
+</head>
+
+<body>
+	
+	<div id="formulaire">
+
+	<h1 id="insForm"><span class="i">I</span><span class="n">n</span><span class="s" >s</span><span class="c">c</span><span class="r">r</span><span class="i">i</span><span class="p">p</span><span class="t">t</span><span class="i">i</span><span class="o">o</span><span class="n">n</span></h1>
+
+	<form action="PersonneID.html" method="get" id="formID">
+
+		<input type="url" id="url" name="url" placeholder="Entrez votre Photo" required><br>
+
+       	<input type="text" name="Nom" placeholder="Entrez votre Nom" required><br>
+       	<input type="text" name="Prénom" placeholder="Entrez votre prénom" required><br>
+       	<input type="date" name="Date de naissance" required><br>
+
+
+		<p>Choisissez votre statut:</p>
+		   
+		<input type="radio" name="Statut" id="Marié(e)" required>
+		<label for="Marié(e)">Marié(e)</label>
+			
+		<input type="radio" name="Statut" id="Célibataire" required>
+		<label for="Célibataire">Célibataire</label>
+			
+       	<input type="radio" name="Statut" id="Autre" required>
+		<label for="Autre">Autre</label>
+
+       <div>
+       		<div id="Musiques">
+       			<h2><span class="m">M</span><span class="u">u</span><span class="s">s</span><span class="i">i</span><span class="q">q</span><span class="u">u</span><span class="e">e</span></h2>
+
+				   <input type="checkbox" name="musique" id="Pop"> 
+				   <label for="Pop">Pop</label><br>
+
+				   <input type="checkbox" name="musique" id="Rock"> 
+				   <label for="Rock">Rock</label><br>
+
+				   <input type="checkbox" name="musique" id="Classique"> 
+				   <label for="Classique">Classique</label><br>
+
+				   <input type="checkbox" name="musique" id="Jazz">  
+				   <label for="Jazz">Jazz</label><br>
+
+				   <input type="checkbox" name="musique" id="Métal"> 
+				   <label for="Métal">Métal</label><br>
+
+				   <input type="checkbox" name="musique" id="Hip Hop">
+				   <label for="Hip Hop">Hip Hop</label><br>
+					
+				   <input type="checkbox" name="musique" id="raggae"> 
+				   <label for="raggae">raggae</label><br>
+
+       		</div>
+
+       		<div id="Loisirs">
+				   <h2>Loisirs</h2>	
+				   
+				<input type="checkbox" name="Loisirs" id="Sport"> 
+				<label for="Sport">Sport</label><br>
+				
+       			<input type="checkbox" name="Loisirs" id="Lecture"> 
+			    <label for="Lecture">Lecture</label><br>
+   
+				<input type="checkbox" name="Loisirs" id="Animaux"> 
+			    <label for="Animaux">Animaux</label><br>
+   
+				<input type="checkbox" name="Loisirs" id="Cuisine">
+				<label for="Cuisine">Cuisine</label><br>
+   
+				<input type="checkbox" name="Loisirs" id="Sortie">
+				<label for="Sortie">Sortie</label><br>
+				   
+				<input type="checkbox" name="Loisirs" id="Gaming">
+				<label for="Gaming">Gaming</label><br>
+
+				<input type="checkbox" name="Loisirs" id="Musique">
+				<label for="Musique">Musique</label><b>
+
+				</div>
+
+       </div>
+
+       <div>
+	       	<h4>Liste de contacts</h4>
+
+	       	<ul>
+	       		<li>
+	       			<input type="checkbox" name="Contacts" value="Amie1"> Amie1
+	  	       			<select name="NatureRelation" form="formID">
+ 						 	<option label="Aucune" value="Aucune">Aucune</option>
+							<option label="Parent" value="Parent">Parent</option>
+							<option label="Fratrie" value="Fratrie">Fratrie</option>
+							<option label="Amie" value="Amie">Amie</option>
+						</select>
+	       		</li>
+
+       	 		<li>
+       	 			<input type="checkbox" name="Contacts" value="Amie2"> Amie2
+	       				<select name="NatureRelation" form="formID">
+ 						 	<option label="aucune" value="Aucune">Aucune</option>
+							<option label="Parent" value="Parent">Parent</option>
+							<option label="Fratrie" value="Fratrie">Fratrie</option>
+							<option label="Amie" value="Amie">Amie</option>
+						</select>
+	       		</li>
+
+	       		<li>
+	       			<input type="checkbox" name="Contacts" value="Amie3"> Amie3
+	       				<select name="NatureRelation" form="formID">
+ 						 	<option label="aucune" value="Aucune">Aucune</option>
+							<option label="Parent" value="Parent">Parent</option>
+							<option label="Fratrie" value="Fratrie">Fratrie</option>
+							<option label="Amie" value="Amie">Amie</option>
+						</select>
+	       		</li>
+
+	       		<li>
+	       			<input type="checkbox" name="Contacts" value="Amie4"> Amie4
+	       				<select name="NatureRelation" form="formID">
+ 						 	<option label="aucune" value="Aucune">Aucune</option>
+							<option label="Parent" value="Parent">Parent</option>
+							<option label="Fratrie" value="Fratrie">Fratrie</option>
+							<option label="Amie" value="Amie">Amie</option>
+						</select>
+	       		</li>
+
+	       		<li>
+	       			<input type="checkbox" name="Contacts" value="Amie5"> Amie5
+	       				<select name="NatureRelation" form="formID">
+ 						 	<option label="aucune" value="Aucune">Aucune</option>
+							<option label="Parent" value="Parent">Parent</option>
+							<option label="Fratrie" value="Fratrie">Fratrie</option>
+							<option label="Amie" value="Ami(e)">Amie</option>
+						</select>
+	       		</li>
+	       </ul>
+       </div>
+	   <div id="validation">
+
+			<div id="Retour">
+				<a href="PersonneID.html?">
+					<input type="button" name="Contacts" value="Retour">
+				</a>
+			</div>
+		
+       		<div id="submite"><input id="submit" type="submit" value="Valider"></div>
+		</div>
+	</form>
+	
+</div>
+</body>
+</html>
+
