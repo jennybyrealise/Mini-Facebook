@@ -19,7 +19,7 @@
   $appliDB = new Connexion();
   $pattern = "";
   // Si mon pattern existe et est rempli
-  if($_GET["RechercherContacts"] != null){
+  if(isset($_GET["RechercherContacts"])){
 	  // Alors je set mon pattern
 	$pattern = $_GET["RechercherContacts"];
   }
@@ -55,7 +55,8 @@
 			<div id="groupe1">
 
 					
-					<?php foreach ($relation as $value){ 
+					<?php 
+					foreach ($relation as $value){ 
 						echo '<div class="blockImg">';
 							echo '<a href="PersonneID.php?id='.$value->ID.'">';
 								echo '<img class="photoProfil" src="'.$value->URL_Photo.'" alt="photo profil">';

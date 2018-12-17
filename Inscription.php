@@ -17,6 +17,7 @@
   require('connexion.php');
   require('Parametre.php');
   $appliDB = new Connexion();
+ 
   ?>
 
 </head>
@@ -102,7 +103,7 @@
 						echo "<select name='$friend->ID'>";
 							echo '<option label="Famille" value="Famille">Famille</option>';
 							echo '<option label="Collègue" value="Collègue">Collègue</option>';
-							echo '<option label="Amie" value="Ami(e)">Ami(e)</option>';
+							echo '<option label="Ami(e)" value="Ami(e)">Ami(e)</option>';
 						echo '</select>';
 						echo '</br>';
 				   }
@@ -115,7 +116,7 @@
 	   <div id="validation">
 
 			<div id="Retour">
-				<a href="PersonneID.php?id=">
+				<a href="Contacts.php">
 					<input type="button" name="Contacts" value="Retour">
 				</a>
 			</div>

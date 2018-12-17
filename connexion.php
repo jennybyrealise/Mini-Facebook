@@ -113,7 +113,7 @@ class Connexion{
     }  
 
 
-    public function selectPersonneById(int $id){
+    public function selectPersonneById( $id){
        
         $requete_prepare=$this->connexion -> prepare(
             "SELECT * FROM Personne WHERE Id = :id");
@@ -154,8 +154,8 @@ class Connexion{
     public function SelectPersonneByNomPrenomLike($pattern){
    
         $requete_prepare = $this->connexion -> prepare (
-            "SELECT * FROM Personne WHERE Nom LIKE :Nom
-                OR Prenom LIKE :Prenom");
+            "SELECT * FROM Personne WHERE LOWER(Nom) LIKE LOWER(:Nom)
+                OR LOWER(Prenom) LIKE LOWER(:Prenom)");
         $requete_prepare ->execute (array("Nom"=>"%$pattern%", "Prenom"=>"%$pattern%"));
         $resultat=$requete_prepare->fetchAll(PDO::FETCH_OBJ);
         

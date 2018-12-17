@@ -1,7 +1,9 @@
+
 #page{
     margin: 0 auto 0 auto;
     width:900px;
     border-style: groove; 
+    background-color: white;
 }	
 
 .photoProfil{

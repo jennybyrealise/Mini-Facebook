@@ -54,6 +54,14 @@ foreach ($_POST["personnes"] as $personne){
 }
 
 
-echo "connexion réussie"
+echo "connexion réussie";
+
+
+//Script de redirection
+
+  header ("Location:http://127.0.1.17//projets/Mini-Facebook/PersonneID.php?id=$id");
+  exit();
+
+
 
 ?>

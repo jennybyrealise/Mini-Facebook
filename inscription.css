@@ -9,6 +9,7 @@
     margin: 0 auto 0 auto;
     width:730px;
     border-style: groove; 
+    background-color: white;
     }
     #Musiques{
         display: inline-block;
