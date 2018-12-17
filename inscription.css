@@ -1,0 +1,29 @@
+#insForm{
+    margin-left:12%;
+    font-family:chango;
+    font-size:70px;
+    text-shadow: 10px -8px 9px #c2c2a3;
+     color: black;
+}
+#formulaire {
+    margin: 0 auto 0 auto;
+    width:730px;
+    border-style: groove; 
+    }
+    #Musiques{
+        display: inline-block;
+    }
+
+    #Loisirs{
+        display: inline-block;
+        margin-left: 300px;
+    }
+
+    #Retour{
+        display: inline-block;
+        margin-left:35%;
+    }
+    #submite{
+        display: inline-block;
+        
+    }

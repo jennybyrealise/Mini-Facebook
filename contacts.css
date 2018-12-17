@@ -1,0 +1,50 @@
+#page{
+    margin: 0 auto 0 auto;
+    width:900px;
+    border-style: groove; 
+}	
+
+.photoProfil{
+    width: 100px;
+    height: auto;
+}
+.blockImg{
+    display: inline-block;
+    margin-right: 45px;
+}
+.blockInfo{
+    display: inline-block;
+    vertical-align: 30px;
+    margin-left: 5px;
+}
+#titre{
+    margin-left: 200px;
+    font-family:chango;
+    font-size:70px;
+    text-shadow: 10px -8px 9px #c2c2a3;
+     color: black;
+}
+#Rechercher{
+    margin-left: 300px;
+    margin-top: 60px;
+}
+#inscription{
+    font-size: 12px;
+    margin-left: 38%;
+}
+#contenuPage{
+    
+    margin-top: 100px;
+}
+#groupe1{
+    margin-left: 65px;
+}
+#groupe2{
+    margin-left: 65px;
+}
+#groupe3{
+    margin-left: 65px;
+}
+#groupe4{
+    margin-left: 65px;
+}

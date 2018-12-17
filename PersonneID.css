@@ -1,0 +1,42 @@
+#page {
+    margin: 0 auto 0 auto;
+    width:730px;
+    border-style: groove; 
+    }	
+    .blockImg{
+        height:60Px;
+        
+    }
+    #photo{
+        width: 300px;
+        height: auto;
+    }
+    h1{
+        font-family:chango;
+    }
+    #image{
+        display: inline-block;
+    }
+    #info{
+        display: inline-block;
+        margin-left: 80px;
+    }
+    .birth{
+        font-size:12px;
+    }
+    #buttonContacts{
+        display: inline-block;
+        margin-bottom: 50px;
+        margin-left:10px;
+    }
+    #buttonIns{
+        display: inline-block;
+    }
+    .icon{
+        width: 50px;
+        height: auto;
+        float:left;
+    }
+    #submite{
+        
+    }
