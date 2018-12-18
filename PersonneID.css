@@ -9,7 +9,7 @@
         
     }
     #photo{
-        width: 300px;
+        width: 250px;
         height: auto;
     }
     h1{
@@ -20,7 +20,7 @@
     }
     #info{
         display: inline-block;
-        margin-left: 80px;
+        margin-left: 2px;
     }
     .birth{
         font-size:12px;
@@ -38,6 +38,4 @@
         height: auto;
         float:left;
     }
-    #submite{
-        
-    }
+    

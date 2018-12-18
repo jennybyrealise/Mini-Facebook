@@ -1,7 +1,9 @@
 body{
     background-color: rgba(187, 184, 184, 0.966);
 }
-
+.submit{
+    background-color:rgb(13, 235, 13);
+}
 
 .couleur1{
     color: orange;

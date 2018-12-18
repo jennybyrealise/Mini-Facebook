@@ -1,5 +1,5 @@
 #insForm{
-    margin-left:12%;
+    margin-left:8%;
     font-family:chango;
     font-size:70px;
     text-shadow: 10px -8px 9px #c2c2a3;
@@ -10,21 +10,42 @@
     width:730px;
     border-style: groove; 
     background-color: white;
-    }
-    #Musiques{
-        display: inline-block;
-    }
+}
+#Musiques{
+    display: inline-block;
+    text-decoration:underline;
+}
 
-    #Loisirs{
-        display: inline-block;
-        margin-left: 300px;
-    }
+#Loisirs{
+    display: inline-block;
+    margin-left: 300px;
+    text-decoration:underline; 
+}
+#liste{
+    text-decoration:underline;
+}
 
-    #Retour{
-        display: inline-block;
-        margin-left:35%;
-    }
-    #submite{
-        display: inline-block;
+#Retour{
+    display: inline-block;
+    margin-left:35%;
+}
+#submite{
+    display: inline-block;
         
-    }
+}
+#contenu{
+        margin-left: 50px;
+}
+#validation{
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+#nom{
+        margin-top: 2px;
+}
+#prenom{
+        margin-top: 2px;
+}
+#ddn{
+        margin-top: 2px;
+}

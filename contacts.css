@@ -20,7 +20,7 @@
     margin-left: 5px;
 }
 #titre{
-    margin-left: 200px;
+    margin-left: 250px;
     font-family:chango;
     font-size:70px;
     text-shadow: 10px -8px 9px #c2c2a3;
@@ -33,20 +33,10 @@
 #inscription{
     font-size: 12px;
     margin-left: 38%;
+    color:red;
 }
 #contenuPage{
     
     margin-top: 100px;
-}
-#groupe1{
-    margin-left: 65px;
-}
-#groupe2{
-    margin-left: 65px;
-}
-#groupe3{
-    margin-left: 65px;
-}
-#groupe4{
-    margin-left: 65px;
+    margin-left: 30px;
 }

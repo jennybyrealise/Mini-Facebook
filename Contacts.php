@@ -40,7 +40,7 @@
 			<form action="Contacts.php" method="get" id="rechercheID">
 				<?php
 				echo '<input type="text" name="RechercherContacts" placeholder="Rechercher Contacts">';
-				echo '<input type="submit" name="OK" value="OK">'
+				echo '<input type="submit" class="submit" name="OK" value="OK">'
 				?>
 			</form>
 			
@@ -52,8 +52,7 @@
 
 		<div id="contenuPage">
 
-			<div id="groupe1">
-
+			<div>
 					
 					<?php 
 					foreach ($relation as $value){ 
