@@ -56,7 +56,7 @@
 
        <div>
        		<div id="Musiques">
-       			<h2><span class="m">M</span><span class="u">u</span><span class="s">s</span><span class="i">i</span><span class="q">q</span><span class="u">u</span><span class="e">e</span></h2>
+       			<h2 class="sous-titre">Musique</h2>
 
                 <?php  
 		
@@ -69,7 +69,7 @@
        		</div>
 
        		<div id="Loisirs">
-				   <h2>Loisirs</h2>	
+				   <h2 class="sous-titre">Loisirs</h2>	
 				   
                    <?php  
                 
@@ -85,9 +85,9 @@
        </div>
 
        <div>
-	       	<h4 id="liste">Liste de contacts</h4>
+	       	<h4 class="sous-titre">Liste de contacts</h4>
 					<?php
-				   $friends = $appliDB->selectAllFriend();
+				   $friends = $appliDB->getRandomFriends();
 				   foreach ($friends as $friend){
 					   echo '<table width=45% id="table">';
 					   echo '<tr>';

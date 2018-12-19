@@ -13,15 +13,13 @@
 }
 #Musiques{
     display: inline-block;
-    text-decoration:underline;
 }
 
 #Loisirs{
     display: inline-block;
     margin-left: 300px;
-    text-decoration:underline; 
-}
-#liste{
+  }
+.sous-titre{
     text-decoration:underline;
 }
 

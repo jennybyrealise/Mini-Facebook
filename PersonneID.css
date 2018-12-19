@@ -21,6 +21,7 @@
     #info{
         display: inline-block;
         margin-left: 2px;
+        vertical-align: 50px;
     }
     .birth{
         font-size:12px;
