@@ -1,10 +1,13 @@
+/*CSS en commun pour chaque page du projet*/
+
 body{
-    background-color: rgba(187, 184, 184, 0.966);
+    background-color: rgba(187, 184, 184, 0.966);/*couleur de fond de page*/
 }
 .submit{
-    background-color:rgb(13, 235, 13);
+    background-color:rgb(13, 235, 13);/*bouttons submit*/
 }
 
+/* 30 couleurs prédéfinie pour la fonction colorize qui sert à mettre une couleur aléatoire à chaque lettre*/
 .couleur1{
     color: orange;
 }

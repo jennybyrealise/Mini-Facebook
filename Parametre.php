@@ -1,6 +1,6 @@
 <?php
 
-//function pour couleur
+//function pour couleurcoloré les lettre aléatoirement
 function colorize($string){
     
     for($i = 0; $i < strlen($string); $i++) {
@@ -9,7 +9,5 @@ function colorize($string){
         echo "<span class=\"couleur$couleurAleatoire\">$lettre</span>";
     }
 }
-
-    
 
 ?>
