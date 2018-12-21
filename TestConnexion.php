@@ -119,6 +119,12 @@ $appliDB->insertPersonneHobbies(4,array(43,10));
 $appliDB->insertPersonneMusique(6,array(55,56));
 
 $appliDB->insertPersonneRelation(8,6,"ami");
-*/
+
+$appliDB->insertPersonneHobbies(4,array(43,10));
 
 $successPersonne = $appliDB->insertPersonne("Toto","tata","url","1981-10-29","Célibataire");
+*/
+
+$appliDB->insertPersonneMusique(8,array(53,56));
+$appliDB->insertPersonneHobbies(8,array(42,47,51));
+

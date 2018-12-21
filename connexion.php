@@ -279,23 +279,29 @@ class Connexion{
             "INSERT INTO  RelationHobby (Personne_Id,Hobby_Id)
                     VALUES (:personne_Id,:hobby_Id)");
 
+        //insérer dans la BDD le type de hobby que la personne aime
+        foreach($Hobby_Id as $Hobby){
         $requete_prepare->execute(
             array(  "personne_Id" => $Personne_Id, 
-                    "hobby_Id" => $Hobby_Id)
+                    "hobby_Id" => $Hobby)
         );
+        }
     }
 
     // insertion des musiques de la personne par l'ID de la personne et l'ID de la musique(relation Musique BDD )
     public function insertPersonneMusique($Personne_Id,$Musique_Id){
 
-            $requete_prepare = $this->connexion->prepare(
-                "INSERT INTO  RelationMusique (Personne_Id,Musique_Id)
-                        VALUES (:personne_Id,:musique_Id)");
+        $requete_prepare = $this->connexion->prepare(
+            "INSERT INTO  RelationMusique (Personne_Id,Musique_Id)
+                    VALUES (:personne_Id,:musique_Id)");
 
-            $requete_prepare->execute(
-                array(  "personne_Id" => $Personne_Id, 
-                        "musique_Id" => $Musique_Id)
-            );
+        //insérer dans la BDD le type de musique que la personne aime
+        foreach($Musique_Id as $Musique){
+        $requete_prepare->execute(
+            array(  "personne_Id" => $Personne_Id, 
+                    "musique_Id" => $Musique)
+        );
+        }
     }
 
     // insertion des relations de la personne par l'ID de la personne et l'ID de la relation et le type de relation(relation personnes )   
