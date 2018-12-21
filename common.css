@@ -6,6 +6,17 @@ body{
 .submit{
     background-color:rgb(13, 235, 13);/*bouttons submit*/
 }
+.page {
+    margin-left:20%;
+    margin: 0 auto 0 auto;
+    width:730px;
+    border-style: groove; 
+    background-color: white;
+    }	
+
+.contenu{
+    margin-left: 50px;
+}
 
 /* 30 couleurs prédéfinie pour la fonction colorize qui sert à mettre une couleur aléatoire à chaque lettre*/
 .couleur1{

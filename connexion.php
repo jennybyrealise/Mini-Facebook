@@ -280,12 +280,12 @@ class Connexion{
                     VALUES (:personne_Id,:hobby_Id)");
 
         //insérer dans la BDD le type de hobby que la personne aime
-        foreach($Hobby_Id as $Hobby){
+        //foreach($Hobby_Id as $Hobby){
         $requete_prepare->execute(
             array(  "personne_Id" => $Personne_Id, 
-                    "hobby_Id" => $Hobby)
+                    "hobby_Id" => $Hobby_Id)
         );
-        }
+        //}
     }
 
     // insertion des musiques de la personne par l'ID de la personne et l'ID de la musique(relation Musique BDD )
@@ -296,12 +296,12 @@ class Connexion{
                     VALUES (:personne_Id,:musique_Id)");
 
         //insérer dans la BDD le type de musique que la personne aime
-        foreach($Musique_Id as $Musique){
+        //foreach($Musique_Id as $Musique){
         $requete_prepare->execute(
             array(  "personne_Id" => $Personne_Id, 
-                    "musique_Id" => $Musique)
+                    "musique_Id" => $Musique_Id)
         );
-        }
+        //}
     }
 
     // insertion des relations de la personne par l'ID de la personne et l'ID de la relation et le type de relation(relation personnes )   

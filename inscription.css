@@ -5,12 +5,6 @@
     text-shadow: 10px -8px 9px #c2c2a3;
      color: black;
 }
-#formulaire {
-    margin: 0 auto 0 auto;
-    width:730px;
-    border-style: groove; 
-    background-color: white;
-}
 #Musiques{
     display: inline-block;
 }
@@ -30,10 +24,7 @@
 #submite{
     display: inline-block;
         
-}
-#contenu{
-        margin-left: 50px;
-}
+}s
 #validation{
         margin-top: 20px;
         margin-bottom: 20px;

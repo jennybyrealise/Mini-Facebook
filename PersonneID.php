@@ -29,7 +29,9 @@ $relation = $appliDB->getRelationPersonne($_GET["id"]);
 
 <body>
 
-	<div id=page>
+	<div class="page">
+
+	<div class="contenu">
 
 		<div id="blockInfo">
 
@@ -44,7 +46,7 @@ $relation = $appliDB->getRelationPersonne($_GET["id"]);
 
 
 			<!--info de la personne à droite de la photo-->
-	    	<div id="info">
+			<div id="info">
 				<h1>
 				<?php colorize($personne->Nom." ".$personne->Prenom." " ); ?><!--appel fonction "colorize"pour avoir nom et prénom avec couleur aléatoire-->
 				</h1>
@@ -82,15 +84,15 @@ $relation = $appliDB->getRelationPersonne($_GET["id"]);
 
 		<div id="blockMusique">
 
-            <h2>Mes goûts musicaux :</h2>
+			<h2>Mes goûts musicaux :</h2>
 
 			<!--récupérer dans la BDD le type de musique de la liste de musique de la personne sous forme de liste-->
-            <?php
+			<?php
 			echo "<ul>";
 			foreach ($musiques as $value){
 				echo"<li>".$value->Type."</li>";
 			}
-            echo "</ul>";
+			echo "</ul>";
 			?>
 
 		</div>
@@ -105,7 +107,7 @@ $relation = $appliDB->getRelationPersonne($_GET["id"]);
 			foreach ($hobbies as $value){
 				echo"<li>".$value->Type."</li>";
 			}
-            echo "</ul>";
+			echo "</ul>";
 			?>
 
 		</div>
@@ -129,7 +131,8 @@ $relation = $appliDB->getRelationPersonne($_GET["id"]);
 			?>
 
 		</div>
-
+		
+	</div>
 	</div>
 
 </body>
